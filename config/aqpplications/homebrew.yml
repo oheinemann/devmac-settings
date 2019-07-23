@@ -1,0 +1,28 @@
+---
+
+applications:
+
+
+  homebrew:
+
+    # Homebrew taps to install
+    taps:
+
+    packages:
+      - bash
+      - cdiff
+      - curl
+      - git
+      - tree
+      - unrar
+      - wget
+      - xz
+      - rbenv
+      - ruby-build
+      - bash-completion
+      - ddev
+
+
+    # Homebrew casks to install
+    casks:
+      - visual-studio-code

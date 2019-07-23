@@ -1,0 +1,22 @@
+---
+
+configuration:
+
+  # configuration of the dock
+  dock:
+    apps:
+      - Launchpad
+      - Siri
+      - Mail
+      - Calendar
+      - Maps
+      - Google Chrome
+      - Firefox
+      - Safari
+      - iTerm
+      - App Store
+      - System Preferences
+
+    folders:
+      - ~/Downloads
+      - { dest: "{{ system.screencapture.location }}", view: grid, display: stack, sort: datecreated }

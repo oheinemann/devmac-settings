@@ -1,0 +1,6 @@
+---
+
+system:
+
+  screencapture:
+    location: ~/Pictures/Screenshots
